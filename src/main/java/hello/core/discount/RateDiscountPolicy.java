@@ -1,9 +1,11 @@
 package hello.core.discount;
 
 import hello.core.member.Grade;
+import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
 @Component
+@Primary
 public class RateDiscountPolicy implements DiscountPolicy {
 
     @Override
