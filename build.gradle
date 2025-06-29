@@ -28,6 +28,10 @@ repositories {
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter'
 
+    // web 세팅
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    // web 세팅 끝
+
     // lombok 세팅
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'
